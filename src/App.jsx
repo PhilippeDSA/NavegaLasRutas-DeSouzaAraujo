@@ -5,7 +5,7 @@ import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import Cart from "./components/Cart/Cart"
 
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
-import { CarritoProvider } from "./context/carritocontext"
+import { CarritoProvider } from "./context/CarritoContext"
 
 import Menu from "./components/Menu/Menu"
 import Checkout from "./components/Checkout/Checkout"
