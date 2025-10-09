@@ -1,5 +1,3 @@
-import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer"
-import "./Item.css"
 import { Link } from "react-router-dom"
 const Item = ({ id, nombre, categoria, precio, img, idCat }) => {
     return (
@@ -9,10 +7,10 @@ const Item = ({ id, nombre, categoria, precio, img, idCat }) => {
             <p>Precio: ${precio}</p>
             <p>Categoría: {categoria}</p>
             <p>idCat: {idCat}</p>
-            <Link to={`/producto/${id}`}>
+            <Link to={`/item/${id}`}>
                 <button>Ver Detalles</button>
             </Link>
-            <p>id{id}</p>
+            <p>ID {id}</p>
         </div >
     )
 }

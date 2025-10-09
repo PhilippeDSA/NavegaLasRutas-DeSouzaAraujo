@@ -1,20 +1,20 @@
 .cardProducto {
     border-radius: 10px;
     width: 250px;
-    /* más razonable */
+
     margin: 1rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* efecto de tarjeta */
+
     transition: transform 0.2s ease-in-out;
 }
 
 .cardProducto:hover {
     transform: scale(1.05);
-    /* animación sutil */
+
 }
 
 .cardProducto img {
@@ -29,7 +29,7 @@
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
-    /* corregido */
+
     margin-top: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
