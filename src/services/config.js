@@ -2,13 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, doc, writeBatch } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDbVVwjwwLZ0v2jmq46sJB4JL0BeVndtBI",
-    authDomain: "conpalta-fc760.firebaseapp.com",
-    projectId: "conpalta-fc760",
-    storageBucket: "conpalta-fc760.firebasestorage.app",
-    messagingSenderId: "957967121849",
-    appId: "1:957967121849:web:4ede3521ac0c49be378a68"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
+
 
 const app = initializeApp(firebaseConfig);
 
