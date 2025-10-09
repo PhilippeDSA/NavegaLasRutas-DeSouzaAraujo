@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-import { CarritoContext } from "../../context/carritocontext";
+import { CarritoContext } from "../../context/CarritoContext";
 import ItemCount from "./ItemCount";
 
 function ItemDetail({ id, nombre, precio, img, idCat, descripcion, stock }) {
